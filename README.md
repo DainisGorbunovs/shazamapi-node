@@ -13,6 +13,7 @@ shazam.identify(song)
 ```
 
 ### Trimming audio
+It needs to be approximately 10 second long WAV file.
 ```
 $ ffmpeg -ss 27 -t 10 -i input.mp3 input.wav
 ```
@@ -20,4 +21,20 @@ $ ffmpeg -ss 27 -t 10 -i input.mp3 input.wav
 ### Running
 ```
 $ node app.js
+```
+
+### Sample output
+```json
+{
+   "matches":[
+      {
+         "key":"Xz5UTjcmsakF4B+JtayphlNUiqIj8haFFz5DeUiJhdZ2V963xMHdpjHxK7QmtUEUEA==",
+         "metadata":{
+            "title":"Invincible",
+            "artist":"Deaf Kev"
+         },
+         "type":"music"
+      }
+   ]
+}
 ```
