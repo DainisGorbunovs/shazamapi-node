@@ -1,0 +1,28 @@
+{
+  "name": "shazamapi-node",
+  "version": "1.0.0",
+  "description": "Unofficial Shazam SDK for Node.js",
+  "main": "shazamapi-node.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DainisGorbunovs/shazamapi-node.git"
+  },
+  "keywords": [
+    "shazam",
+    "music",
+    "recognition"
+  ],
+  "author": "Dainis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DainisGorbunovs/shazamapi-node/issues"
+  },
+  "homepage": "https://github.com/DainisGorbunovs/shazamapi-node#readme",
+  "dependencies": {
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
