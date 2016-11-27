@@ -1,6 +1,6 @@
 {
   "name": "shazamapi-node",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Unofficial Shazam SDK for Node.js",
   "main": "shazamapi-node.js",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/DainisGorbunovs/shazamapi-node#readme",
   "dependencies": {
+    "bluebird": "^3.4.6",
     "request": "^2.79.0",
     "request-promise": "^4.1.1"
   }
